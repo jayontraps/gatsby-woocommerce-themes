@@ -7,6 +7,7 @@ module.exports = ({ wordPressUrl, gatsbySiteUrl, googleTagManagerId, fbAppId }) 
     author: `@imranhsayed`,
 	fbAppId: fbAppId,
   },
+  flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [
     {
       resolve: "gatsby-plugin-google-tagmanager",
